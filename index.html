@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérif'Tech Agri</title>
+    <style>
+        
+        @font-face {
+            font-family: 'Poppins-regular';
+            src: url('./assets/Poppins/Poppins-Regular.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: 'Poppins-regular', sans-serif;
+            height: calc(100vh - 20px);
+        }
+
+        .container {
+            max-width: 400px;
+            display: flex;
+            align-items: center;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            border-radius: 50px;
+            align-items: center;
+            padding: 20px;
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+        }
+
+        span {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            margin-top: 30px;
+            background-color: #FFC90D;
+            border: solid 2px #FFC90D;
+            padding: 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: black;
+            font-size: 1.2em;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: white;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        .i {
+            width: 22px;
+            padding-right: 10px;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+
+        .btn:hover .i {
+            transform: translate(40px, -40px);
+            opacity: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <header>
+                <div>
+                    <img src="./assets/logoveriftechagri.jpg" alt="Logo Vérif'Tech Agri">
+                </div>
+            </header>
+
+            <main>
+                <p>VERIF’TECH AGRI a malheureusement été retirée temporairement du Play Store de Google pour des raisons techniques.</p>
+                <p>Une version actualisée de VERIF’TECH AGRI est prévue pour la fin d’année 2025 avec de nouvelles fonctionnalités.</p>
+                <p>Nous vous remercions de votre patience et vous invitons à revenir très prochainement pour découvrir la nouvelle version.</p>
+                <p>Pour toute demande ou information : 
+                    <br>
+                    <span>
+                        <a href="mailto:contact@veriftechagri.fr" class="btn">
+                            <img src="./assets/paper-plane-solid-blue.svg" class="i">contact@veriftechagri.fr
+                        </a>
+                    </span>
+                </p>
+            </main>
+
+            <footer>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
